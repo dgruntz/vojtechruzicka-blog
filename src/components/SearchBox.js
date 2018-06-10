@@ -6,7 +6,8 @@ class Bio extends React.Component {
 
     render() {
 
-        return (<div></div>)
+        return (<div className="gcse-searchbox" data-resultsUrl="https://www.vojtechruzicka.com"
+                     data-newWindow="true" data-queryParameterName="search">)
     }
 
     componentDidMount() {

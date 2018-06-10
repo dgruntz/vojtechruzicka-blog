@@ -6,7 +6,8 @@ import SearchBox from "./SearchBox";
 
 class Navigation extends React.Component {
   render() {
-    return (
+    return (<div>
+        <Helmet><script async="true" src="https://cse.google.com/cse.js?cx=002069634167807847471:b-ekwugobes" type="text/javascript"></script></Helmet>
       <div className="main-navigation">
         <Link className="logo" to="/">
           <img src={profilePic} alt={`Vojtech Ruzicka`} />
@@ -24,6 +25,7 @@ class Navigation extends React.Component {
 
         </div>
       </div>
+        </div>
     );
   }
 }
