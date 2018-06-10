@@ -6,19 +6,11 @@ class Bio extends React.Component {
 
     render() {
 
-        return (<gcse:search></gcse:search>)
+        return (<div></div>)
     }
 
     componentDidMount() {
-        if(window) {
-            var cx = '002069634167807847471:b-ekwugobes';
-            var gcse = document.createElement('script');
-            gcse.type = 'text/javascript';
-            gcse.async = true;
-            gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(gcse, s);
-        }
+
     }
 
     handleSearchIconClick() {

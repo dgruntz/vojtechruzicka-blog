@@ -43,6 +43,18 @@ module.exports = class HTML extends React.Component {
             id="___gatsby"
             dangerouslySetInnerHTML={{ __html: this.props.body }}
           />
+          <script>
+              (function() {
+              var cx = '002069634167807847471:b-ekwugobes';
+              var gcse = document.createElement('script');
+              gcse.type = 'text/javascript';
+              gcse.async = true;
+              gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+              var s = document.getElementsByTagName('script')[0];
+              s.parentNode.insertBefore(gcse, s);
+          })();
+          </script>
+          <gcse:search></gcse:search>
           {this.props.postBodyComponents}
           <script src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js" />
         </body>
