@@ -7,15 +7,7 @@ class Bio extends React.Component {
     render() {
 
         return (<div className="gcse-searchbox" data-resultsUrl="https://www.vojtechruzicka.com"
-                     data-newWindow="true" data-queryParameterName="search">)
-    }
-
-    componentDidMount() {
-
-    }
-
-    handleSearchIconClick() {
-        this.searchInput.focus();
+                     data-newWindow="true" data-queryParameterName="search"></div>)
     }
 }
 
