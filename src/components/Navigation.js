@@ -3,6 +3,7 @@ import React from "react";
 import profilePic from "./profile.jpg";
 import Link from "gatsby-link";
 import SearchBox from "./SearchBox";
+import {Helmet} from "react-helmet";
 
 class Navigation extends React.Component {
   render() {
