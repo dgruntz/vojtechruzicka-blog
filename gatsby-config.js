@@ -119,7 +119,7 @@ module.exports = {
               }
             }
           `,
-                      output: "/feed",
+                      output: "/feed.xml",
                   },
               ],
           },
