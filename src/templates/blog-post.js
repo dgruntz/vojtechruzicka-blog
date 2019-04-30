@@ -6,6 +6,7 @@ import Bio from "../components/Bio";
 import {rhythm, scale} from "../utils/typography";
 import Tags from "../components/Tags";
 import {Link} from "gatsby";
+import Img from 'gatsby-image'
 import {
     FacebookShareButton,
     LinkedinShareButton,
@@ -227,7 +228,7 @@ class BlogPostTemplate extends React.Component {
                         {lastUpdated}
                     </div>
 
-
+                    <Img className="featured-image" fluid={post.frontmatter.featuredImage.childImageSharp.fluid} />
                     {/*<div className="toc">*/}
                     {/*    <h4>Contents</h4>*/}
                     {/*    <div className="toc-list" dangerouslySetInnerHTML={{__html: post.tableOfContents}}/>*/}
